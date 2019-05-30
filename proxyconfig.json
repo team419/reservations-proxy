@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "route": "/all",
+      "address": "http://localhost:5555/all"
+    },
+    {
+      "route": "/business",
+      "address": "http://localhost:3418/business"
+    },
+    {
+      "route": "/image",
+      "address": "http://localhost:3003/image"
+    },
+    {
+      "route": "/restaurant",
+      "address": "http://localhost:3003/restaurant"
+    },
+    {
+      "route": "/user",
+      "address": "http://localhost:3003/user"
+    },
+    {
+      "route": "/review_id",
+      "address": "http://localhost:3001/review_id"
+    }
+  ]
+}
