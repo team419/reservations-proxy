@@ -1,0 +1,29 @@
+{
+  "name": "reservations-proxy",
+  "version": "1.0.0",
+  "description": "> Yelp restaurant page build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team419/reservations-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team419/reservations-proxy/issues"
+  },
+  "homepage": "https://github.com/team419/reservations-proxy#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.19.1",
+    "path": "^0.12.7"
+  }
+}
